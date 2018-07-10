@@ -1,4 +1,4 @@
-# DFT BLUE BADGE BETA - LA-WEBAPP - Acceptance tests
+WEBAPP - Acceptance tests
 
 ## Acceptance tests
 
@@ -10,39 +10,6 @@ standalone mode ([see instructions above](#RUN WITH GRADLE)) and then, to run th
 ### Prerequisites
 Start all the services & applications
 
-#### Start user management service
-```
-cd usermanagement-service
-git checkout whateverbranch
-git pull
-gradle install
-gradle build
-gradle bootRun
-```
-
-#### Start authorisation service
-```
-cd authorisation-service
-git checkout whateverbranch
-git pull
-gradle build
-gradle bootRun
-```
-
-#### Start message service
-```
-cd message-service
-git checkout whateverbranch
-git pull
-gradle build
-gradle bootRun
-```
-
-#### Start la-webapp
-```
-gradle build
-gradle bootRun
-```
 
 ## Run the all acceptance tests
 
